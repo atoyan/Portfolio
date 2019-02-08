@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 750px;
+  background: url("/files/background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.projects {
+  min-height: 600px;
+  color: white;
+}
+.contact {
+  min-height: 600px;
+  color: white;
+}
+#navbarName {
+  font-family: "Secular One", sans-serif;
+}
+
+#downloadText {
+  font-family: "Dosis", sans-serif;
+}
