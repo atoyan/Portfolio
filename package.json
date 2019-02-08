@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atoyan/Portfolio.git"
+  },
+  "author": "Andranik Atoyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atoyan/Portfolio/issues"
+  },
+  "homepage": "https://github.com/atoyan/Portfolio#readme"
+}
