@@ -20,7 +20,7 @@ window.onload = function() {
 
 // CHANGE DIRECTION CURSOR BASED ON SCROLL
 window.addEventListener("scroll", function() {
-  let scrollTop = document.documentElement.scrollTop;
+  let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
   if (scrollTop > 450) {
     btn.className = "";
     btn.classList.add("fas", "fa-chevron-up", "fa-3x");
