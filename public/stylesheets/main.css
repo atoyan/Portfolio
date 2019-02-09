@@ -8,6 +8,7 @@ body {
 
 .projects {
   width: 90%;
+  margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
   position: relative;
@@ -17,6 +18,7 @@ body {
 }
 .contact {
   width: 90%;
+  margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
   position: relative;
@@ -25,7 +27,7 @@ body {
   color: white;
 }
 .backgroundImage {
-  background: url("/files/background.png");
+  background: grey;
   background-size: cover;
   background-position: center;
 }
@@ -55,8 +57,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 #downButton {
-  width: 50%;
-  margin-right: 100px;
+  margin-right: 0 auto;
 }
 .card {
   color: white;
@@ -77,4 +78,8 @@ body {
 
 .card-title {
   color: white;
+}
+
+.footer {
+  margin: 0 auto;
 }
