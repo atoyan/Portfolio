@@ -32,12 +32,9 @@ window.addEventListener("scroll", function() {
 
 btn.addEventListener("click", function() {
   let url = document.URL;
-  if (
-    url === "http://localhost:3000/" ||
-    url === "http://localhost:3000/#projects"
-  ) {
-    window.location.href = "http://localhost:3000/#contact";
+  if (url === "/" || url === "/#projects") {
+    window.location.href = "/#contact";
   } else {
-    window.location.href = "http://localhost:3000/#projects";
+    window.location.href = "/#projects";
   }
 });
