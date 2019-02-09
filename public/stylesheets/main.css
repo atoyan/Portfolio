@@ -65,15 +65,22 @@ body {
 
 #about-text {
   font-family: "Montserrat", sans-serif;
+  animation-name: colorAnimation;
+  animation-duration: 3s;
 }
 #contact-text {
   font-family: "Montserrat", sans-serif;
+  animation-name: colorAnimation;
+  animation-duration: 3s;
 }
 #skills-text {
   font-family: "Montserrat", sans-serif;
+  animation-name: colorAnimation;
+  animation-duration: 3s;
 }
 .card-text {
-  color: white;
+  animation-name: colorAnimation;
+  animation-duration: 3s;
 }
 
 .card-title {
@@ -82,4 +89,17 @@ body {
 
 .footer {
   margin: 0 auto;
+}
+
+#projectsTitle {
+  animation-name: colorAnimation;
+  animation-duration: 3s;
+}
+@keyframes colorAnimation {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
 }

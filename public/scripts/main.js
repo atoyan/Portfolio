@@ -6,7 +6,7 @@ let cursor = false;
 //LOAD NAME LETTERS BY INTERVAL
 
 window.onload = function() {
-  for (let i = 1; i <= 8; i++) {
+  for (let i = 1; i <= 14; i++) {
     spans.push(document.getElementById(i.toString()));
   }
   console.log(spans);
