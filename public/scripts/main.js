@@ -32,9 +32,12 @@ window.addEventListener("scroll", function() {
 
 btn.addEventListener("click", function() {
   let url = document.URL;
-  if (url === "/" || url === "/#projects") {
-    window.location.href = "/#contact";
+  if (
+    url === "/" ||
+    url === "https://andranik-atoyan.herokuapp.com/#projects"
+  ) {
+    window.location.href = "https://andranik-atoyan.herokuapp.com/#contact";
   } else {
-    window.location.href = "/#projects";
+    window.location.href = "https://andranik-atoyan.herokuapp.com/#projects";
   }
 });
