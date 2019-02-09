@@ -2,23 +2,79 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  min-height: 750px;
-  background: url("/files/background.png") no-repeat;
-  background-size: cover;
-  background-position: center;
+  min-height: 1080px;
+  margin: 0 auto;
 }
+
 .projects {
-  min-height: 600px;
+  width: 90%;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  background: transparent;
+  min-height: 800px;
   color: white;
 }
 .contact {
-  min-height: 600px;
+  width: 90%;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  background-color: transparent;
+  min-height: 800px;
   color: white;
 }
-#navbarName {
-  font-family: "Secular One", sans-serif;
+.backgroundImage {
+  background: url("/files/background.png");
+  background-size: cover;
+  background-position: center;
 }
 
+#navbarName {
+  font-family: "Montserrat", sans-serif;
+}
+.projects h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.projects h1 {
+  font-family: "Major Mono Display", monospace;
+}
+.contact h4 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.contact h1 {
+  font-family: "Major Mono Display", monospace;
+  color: white;
+}
+.card-transparent {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
 #downloadText {
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+#downButton {
+  width: 50%;
+  margin-right: 100px;
+}
+.card {
+  color: white;
+}
+
+#about-text {
+  font-family: "Montserrat", sans-serif;
+}
+#contact-text {
+  font-family: "Montserrat", sans-serif;
+}
+#skills-text {
+  font-family: "Montserrat", sans-serif;
+}
+.card-text {
+  color: white;
+}
+
+.card-title {
+  color: white;
 }

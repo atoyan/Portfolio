@@ -6,6 +6,7 @@ PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 
 app.use(express.static(__dirname + "/public"));
+app.use("/files", express.static(__dirname + "/public/files/"));
 app.use("/scripts", express.static(__dirname + "/public/scripts/"));
 app.use("/stylesheets", express.static(__dirname + "/public/stylesheets/"));
 

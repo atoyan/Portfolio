@@ -22,84 +22,189 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Dosis|Secular+One"
+      href="https://fonts.googleapis.com/css?family=Dosis|Major+Mono+Display|Montserrat|Secular+One"
       rel="stylesheet"
     />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-      <a class="navbar-brand" href="/">
-        <span id="navbarName"> \____Andranik Atoyan___/ </span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav"></ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link " href="/download">
-              <i class="fas fa-file-pdf"></i
-              ><span id="downloadText" style="text-decoration-line: underline">
-                Resume
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="mx-auto">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+         <div class="container"> <span id="navbarName"> <span id="1" hidden>A</span><span id="2" hidden>n</span><span id="3" hidden>d</span><span id="4" hidden>r</span><span id="5" hidden>a</span><span id="6" hidden>n</span><span id="7" hidden>i</span><span id="8" hidden>k</span></div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav"></ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link " href="/download">
+                <span id="downloadText" >
+               </span
+                ><i class="far fa-hand-point-right fa-1x"></i>
+                 <i class="fas fa-file-pdf fa-2x"></i><br />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <!-- Navbar End -->
 
     <!--backgroundImage-->
-    <div class="backgroundImage">
+    <div class="backgroundImage text-center">
       <div class="container text-center ">
         <!-- Projects -->
 
-        <div class="projects" id="projects">
+        <div class="projects mt-5" id="projects" style="">
+          <h1>
+            
+            <br />
+            Projects
+            <hr  />
+            <br />
+            <br />
+          </h1>
           <div class="row">
-            <div class="col-xs"></div>
             <div class="col-md">
-              <h1>
-                Projects
-              </h1>
-              <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                ut ipsam, alias veritatis id ab maiores maxime perspiciatis
-                nobis, eaque odio eum ad? Vero doloribus hic iste nostrum nisi
-                laudantium!
-              </h3>
-              <a href="#contact">Contact</a>
+              <div class="card-transparent" style="width: 18rem;">
+                <img
+                  src="files/devground.png"
+                  class="card-img-top thumbnail img-fluid"
+                  alt="DevGround"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">DevGround</h5>
+                  <p class="card-text">
+                    Social Network For Developers
+                  </p>
+                  <a
+                    href="https://devgroundapp.herokuapp.com/"
+                    class="btn btn-primary"
+                    >Go</a
+                  >
+                  <a
+                    href="https://github.com/atoyan/DevGround"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
             </div>
-            <div class="col-xs"></div>
+            <div class="col-md">
+              <div class="card-transparent" style="width: 18rem;">
+                <img
+                  class="thumbnail card-img-top img-fluid"
+                  src="files/yelpcamp.png"
+                  class="card-img-top"
+                  alt="YelpCamp"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">YelpCamp</h5>
+                  <p class="card-text">
+                    A Website For Campers
+                  </p>
+                  <a
+                    href="http://websiteforcampers.herokuapp.com/"
+                    class="btn btn-primary"
+                    >Go</a
+                  >
+                  <a
+                    href="https://github.com/atoyan/YelpCamp"
+                    class="btn btn-success"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+                <div class="card-transparent" style="width: 18rem;">
+                  <img
+                    src="files/devground.png"
+                    class="card-img-top thumbnail img-fluid"
+                    alt="DevGround"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">DevGround</h5>
+                    <p class="card-text">
+                      Social Network For Developers
+                    </p>
+                    <a
+                      href="https://devgroundapp.herokuapp.com/"
+                      class="btn btn-primary"
+                      >Go</a
+                    >
+                    <a
+                      href="https://github.com/atoyan/DevGround"
+                      class="btn btn-success"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
           </div>
+             
+          
         </div>
 
         <!-- Projects End -->
+
+        <div class="row">
+          <div class="col-md">
+            <i
+      onmouseover="this.style.cursor='pointer'"
+      class="fas fa-chevron-down fa-3x"
+      id="downButton"
+    style="color:white"></i>
+          </div>
+        </div>
+
         <!-- Contact -->
 
-        <div class="contact" id="contact">
-          <div class="row">
-            <div class="col-xs"></div>
-            <div class="col-md-12">
-              <h1>
-                Contact
-              </h1>
-              <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                ut ipsam, alias veritatis id ab maiores maxime perspiciatis
-                nobis, eaque odio eum ad? Vero doloribus hic iste nostrum nisi
-                laudantium!
-              </h3>
+        <div class="contact " id="contact" style="color:white;">
+          <h1>
+            <br />
+            <br />
+           
+            About
+            <hr />
+            <br>
+          </h1>
+          <p>
+            <h5 id="about-text" class="text-left">
+                 My name is Andranik Atoyan, I am a Computer Science Graduate who is passionate about Web Technologies.
+            </h5>
+          </p>
+          <div class="row" style="margin-top:100px">
+            <div class="col-md">
+              <h5 class="text-center">
+                <span id="contact"> Contact</span>
+                <hr />
+                <p id="contact-text" style="text-align:left"> Address: Vibes gate 17, 0356, Oslo, Norway <br> Phone: +47 998 77 566</p>
+                
+              </h5>
             </div>
-            <div class="col-xs"></div>
+            <div class="col-md">
+              
+              <h5 class="text-center"></h5>
+            </div>
+            <div class="col-md">
+              <h5 class="text-center">
+                <span id="skills">Skills</span>
+                <hr />
+                <p style="text-align: left" id="skills-text">✓ HTML <br>✓ CSS, ✓ JavaScript, ✓ Java<br>✓ Express, ✓ Node<br>✓ React/Redux</p>
+              </h5>
+            </div>
           </div>
         </div>
 
@@ -110,7 +215,7 @@
     </div>
     <!-- Footer -->
     <div>
-      <div class="bg-info text-white mt-5 p-4 text-center">
+      <div class=" footer bg-dark  text-white p-3 text-center">
         Copyright © <%= new Date().getFullYear() %> Andranik Atoyan
       </div>
     </div>
