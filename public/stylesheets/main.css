@@ -4,8 +4,32 @@ html {
 body {
   min-height: 1080px;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
+.grey-href {
+  color: lightgrey;
+}
+i:hover {
+  color: #0677a1;
+}
+.animated-icon {
+  animation-name: titleAnimation;
+  animation-duration: 3s;
+}
+.card-body {
+  background-color: #2d4159;
+}
+.navbar {
+  background-color: #59253a;
+  border-color: white;
+}
+.navbar span {
+  color: white;
+}
+.navbar i {
+  color: white;
+}
 .projects {
   width: 100%;
   margin: 0 auto;
@@ -27,10 +51,10 @@ body {
   background-color: transparent;
   min-height: 1000px;
 
-  background: lightgray;
+  background: #895061;
 }
 .backgroundImage {
-  background: darkslateblue;
+  background: #0677a1;
 }
 
 #navbarName {
@@ -47,9 +71,15 @@ body {
   color: white;
 }
 
+.project-description {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+}
+
 .card-transparent {
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: lightgrey;
+  width: 80%;
 }
 #downloadText {
   font-family: "Montserrat", sans-serif;
@@ -63,21 +93,19 @@ body {
 }
 
 #about-title {
-  color: black;
-  animation-name: reverseColorAnimation;
+  color: lightgray;
+  animation-name: titleAnimation;
   animation-duration: 3s;
   font-family: "Major Mono Display", monospace;
 }
 #about-text {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  color: black;
-  animation-name: reverseColorAnimation;
-  animation-duration: 3s;
+  color: lightgrey;
 }
 
 .card-text {
-  animation-name: colorAnimation;
+  animation-name: title;
   animation-duration: 3s;
 }
 
@@ -87,12 +115,14 @@ body {
 
 .footer {
   margin: 0 auto;
+  background-color: #2d4159;
 }
 
 #projects {
   margin: 0 auto;
   width: 80%;
-  background: darkslateblue;
+  background: #0677a1;
+  color: lightgrey;
 }
 
 #projectsTitle {
@@ -141,5 +171,14 @@ body {
   }
   to {
     color: grey;
+  }
+}
+
+@keyframes titleAnimation {
+  from {
+    color: #895061;
+  }
+  to {
+    color: lightgrey;
   }
 }

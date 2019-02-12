@@ -31,11 +31,13 @@ window.addEventListener("scroll", function() {
     btn.classList.add("fas", "fa-chevron-up", "fa-3x");
     document.getElementById("navigation-arrow").classList = "";
     document.getElementById("navigation-arrow").classList.add("fixed-top");
+    document.getElementById("navbar").style.backgroundColor = "#2d4159";
   } else {
     btn.className = "";
     btn.classList.add("fas", "fa-chevron-down", "fa-3x");
     document.getElementById("navigation-arrow").classList = "";
     document.getElementById("navigation-arrow").classList.add("fixed-bottom");
+    document.getElementById("navbar").style.backgroundColor = "#59253a";
   }
 });
 
