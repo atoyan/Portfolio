@@ -29,19 +29,23 @@ window.addEventListener("scroll", function() {
     console.log(window.location.host, window.location.href);
     btn.className = "";
     btn.classList.add("fas", "fa-chevron-up", "fa-3x");
+    document.getElementById("navigation-arrow").classList = "";
+    document.getElementById("navigation-arrow").classList.add("fixed-top");
   } else {
     btn.className = "";
     btn.classList.add("fas", "fa-chevron-down", "fa-3x");
+    document.getElementById("navigation-arrow").classList = "";
+    document.getElementById("navigation-arrow").classList.add("fixed-bottom");
   }
 });
 
 btn.addEventListener("click", function() {
   if (btn.classList.contains("fa-chevron-down")) {
     window.location.href =
-      urlBase + window.location.host.toString() + "/#contact";
+      urlBase + window.location.host.toString() + "/#projects";
   } else {
     window.location.href =
-      urlBase + window.location.host.toString() + "/#projects";
+      urlBase + window.location.host.toString() + "/#about";
   }
 });
 

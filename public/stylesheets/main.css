@@ -7,7 +7,7 @@ body {
 }
 
 .projects {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -16,20 +16,21 @@ body {
   min-height: 800px;
   color: white;
 }
-.contact {
-  width: 90%;
+
+.about {
+  text-align: center;
+  width: 100%;
   margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
   position: relative;
   background-color: transparent;
-  min-height: 800px;
-  color: white;
+  min-height: 1000px;
+
+  background: lightgray;
 }
 .backgroundImage {
-  background: grey;
-  background-size: cover;
-  background-position: center;
+  background: darkslateblue;
 }
 
 #navbarName {
@@ -41,14 +42,11 @@ body {
 .projects h1 {
   font-family: "Major Mono Display", monospace;
 }
-.contact h4 {
+.about h4 {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
-.contact h1 {
-  font-family: "Major Mono Display", monospace;
-  color: white;
-}
+
 .card-transparent {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -58,26 +56,26 @@ body {
 }
 #downButton {
   margin-right: 0 auto;
+  width: 80%;
 }
 .card {
   color: white;
 }
 
+#about-title {
+  color: black;
+  animation-name: reverseColorAnimation;
+  animation-duration: 3s;
+  font-family: "Major Mono Display", monospace;
+}
 #about-text {
   font-family: "Montserrat", sans-serif;
-  animation-name: colorAnimation;
+  text-align: center;
+  color: black;
+  animation-name: reverseColorAnimation;
   animation-duration: 3s;
 }
-#contact-text {
-  font-family: "Montserrat", sans-serif;
-  animation-name: colorAnimation;
-  animation-duration: 3s;
-}
-#skills-text {
-  font-family: "Montserrat", sans-serif;
-  animation-name: colorAnimation;
-  animation-duration: 3s;
-}
+
 .card-text {
   animation-name: colorAnimation;
   animation-duration: 3s;
@@ -91,15 +89,42 @@ body {
   margin: 0 auto;
 }
 
+#projects {
+  margin: 0 auto;
+  width: 80%;
+  background: darkslateblue;
+}
+
 #projectsTitle {
   animation-name: colorAnimation;
   animation-duration: 3s;
 }
+
+#navigation-arrow {
+  vertical-align: bottom;
+
+  animation-name: colorAnimation;
+  animation-duration: 3s;
+}
+
+.animate {
+  animation-name: colorAnimation;
+  animation-duration: 3s;
+}
+
 @keyframes colorAnimation {
   from {
     color: black;
   }
   to {
     color: white;
+  }
+}
+@keyframes reverseColorAnimation {
+  from {
+    color: white;
+  }
+  to {
+    color: grey;
   }
 }
