@@ -5,6 +5,7 @@ body {
   min-height: 1080px;
   margin: 0 auto;
   line-height: 1.6;
+  letter-spacing: 2px;
 }
 
 .grey-href {
@@ -79,7 +80,7 @@ i:hover {
 .card-transparent {
   font-family: "Montserrat", sans-serif;
   color: lightgrey;
-  width: 80%;
+  width: 70%;
 }
 #downloadText {
   font-family: "Montserrat", sans-serif;
