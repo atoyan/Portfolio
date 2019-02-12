@@ -112,6 +112,20 @@ body {
   animation-duration: 3s;
 }
 
+#devground {
+  background: url("/files/devground.jpg");
+  background-size: contain;
+}
+
+#devground:hover {
+  background: url("/files/devground.gif");
+}
+#yelpcamp {
+  background: url("files/yelpcamp.jpg");
+}
+#yelpcamp:hover {
+  background: url("files/yelpcamp.gif");
+}
 @keyframes colorAnimation {
   from {
     color: black;
@@ -120,6 +134,7 @@ body {
     color: white;
   }
 }
+
 @keyframes reverseColorAnimation {
   from {
     color: white;
