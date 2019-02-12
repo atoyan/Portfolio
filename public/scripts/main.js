@@ -36,11 +36,7 @@ window.addEventListener("scroll", function() {
 });
 
 btn.addEventListener("click", function() {
-  let url = document.URL;
-  if (
-    url === "/" ||
-    url === urlBase + window.location.host.toString() + "/#projects"
-  ) {
+  if (btn.classList.contains("fa-chevron-down")) {
     window.location.href =
       urlBase + window.location.host.toString() + "/#contact";
   } else {
