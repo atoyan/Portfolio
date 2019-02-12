@@ -22,6 +22,11 @@ window.onload = function() {
 window.addEventListener("scroll", function() {
   let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
   if (scrollTop > 450) {
+    console.log(
+      window.location.host,
+      window.location.href,
+      window.location.hostname
+    );
     btn.className = "";
     btn.classList.add("fas", "fa-chevron-up", "fa-3x");
   } else {
@@ -34,10 +39,11 @@ btn.addEventListener("click", function() {
   let url = document.URL;
   if (
     url === "/" ||
-    url === "https://andranik-atoyan.herokuapp.com/#projects"
+    url === "http://" + window.location.host.toString() + "/#projects"
   ) {
-    window.location.href = "https://andranik-atoyan.herokuapp.com/#contact";
+    window.location.href =
+      "http://" + window.location.host.toString() + "/#contact";
   } else {
-    window.location.href = "https://andranik-atoyan.herokuapp.com/#projects";
+    window.location.href = "/#projects";
   }
 });
