@@ -11,7 +11,7 @@ body {
 .grey-href {
   color: lightgrey;
 }
-i:hover {
+.social:hover {
   color: #0677a1;
 }
 .animated-icon {
@@ -25,12 +25,21 @@ i:hover {
   background-color: #59253a;
   border-color: white;
 }
+.navbar-toggler-icon {
+  color: lightgrey;
+  background: lightgrey;
+}
 .navbar span {
-  color: white;
+  color: lightgrey;
+  font-family: "Montserrat", sans-serif;
 }
 .navbar i {
-  color: white;
+  color: lightgrey;
 }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .projects {
   width: 100%;
   margin: 0 auto;
@@ -117,6 +126,8 @@ i:hover {
 .footer {
   margin: 0 auto;
   background-color: #2d4159;
+  color: lightgrey;
+  font-family: "Montserrat", sans-serif;
 }
 
 #projects {

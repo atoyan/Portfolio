@@ -29,7 +29,7 @@
   <body>
     <!-- Navbar -->
     <div class="mx-auto">
-      <nav id='navbar' class="navbar fixed-top navbar-expand-lg ">
+      <nav id='navbar' class="navbar navbar-default navbar-expand-lg fixed-top ">
         <a class="navbar-brand" href="/">
          <div class="container-fluid"> <span id="navbarName"> 
           <span id="1" hidden>A</span>
@@ -55,14 +55,12 @@
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          
         >
-          <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon" />
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav"></ul>
+         
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link " href="/download">
@@ -108,9 +106,9 @@
                  <br>
                  <br>
                  <br>
-                <span><a href="https://no.linkedin.com/in/andranik-atoyan-627228112" class='grey-href'><i class="fab fa-linkedin fa-3x pl-3 pr-3 animated-icon"></i></a></span>
-                <span><a href="https://github.com/atoyan" class='grey-href'><i class="fab fa-github fa-3x pl-3 pr-3 animated-icon"></i></a></span>
-                <span><a href="mailto:atoyanandranik@gmail.com" class='grey-href'><i class="fas fa-envelope fa-3x pl-3 pr-3 animated-icon" ></i></a></span>
+                <span><a href="https://no.linkedin.com/in/andranik-atoyan-627228112" class='grey-href'><i class="fab fa-linkedin fa-3x pl-3 pr-3 animated-icon social"></i></a></span>
+                <span><a href="https://github.com/atoyan" class='grey-href'><i class="fab fa-github fa-3x pl-3 pr-3 animated-icon social"></i></a></span>
+                <span><a href="mailto:atoyanandranik@gmail.com" class='grey-href'><i class="fas fa-envelope fa-3x pl-3 pr-3 animated-icon social" ></i></a></span>
                  
                  
             </h3>
@@ -143,12 +141,12 @@
   </h1>
   <div class="row" >
     <div class="col-md">
-      <div class="card-transparent border" >
+      <div class="card-transparent" >
         <img
           src="files/devground.gif"
-          class="card-img-top thumbnail img-fluid"
+          class="float-left img-fluid mb-2"
           alt="DevGround"
-        />
+         />
         <div class="card-body">
           
           <a
@@ -184,9 +182,9 @@
   <div class="row">
      
       <div class="col-md text-center">
-          <div class="card-transparent border" >
+          <div class="card-transparent " >
             <img
-              class="thumbnail card-img-top img-fluid"
+              class="img-fluid rounded float-left mb-2"
               src="files/yelpcamp.gif"
               class="card-img-top"
               alt="YelpCamp"
@@ -235,7 +233,7 @@
     </div>
     <!-- Footer -->
     <div>
-      <div class="footer text-white p-3 text-center ">
+      <div class="footer  p-3 text-center ">
         Copyright © <%= new Date().getFullYear() %> Andranik Atoyan
       </div>
     </div>
