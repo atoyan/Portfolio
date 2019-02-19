@@ -123,6 +123,10 @@ body {
   color: white;
 }
 
+.cv {
+  background: url("/files/CV.ico");
+}
+
 .footer {
   margin: 0 auto;
   background-color: #2d4159;
