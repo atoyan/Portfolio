@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
   res.render("index", { mode });
 });
 app.get("/download", (req, res) => {
-  let file = __dirname + "/public/files/CV.pdf";
+  let file = __dirname + "/public/files/Andranik Atoyan CV.pdf";
   res.download(file);
 });
 app.listen(PORT, err => {
